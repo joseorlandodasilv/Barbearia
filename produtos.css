@@ -1,0 +1,75 @@
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+.caixalogo{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+.produtosdaloja{
+    width: 940px;
+    margin: 0 auto;
+}
+.produtosdaloja li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 50px 20px;
+    margin: 50px 1.5%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 15px 50px 15px 50px;
+}
+.produtosdaloja li:hover{
+    border-color: #C78C19;
+}
+.produtosdaloja li:hover h2{
+    font-size: 35px;
+}
+.produtosdaloja li:active{
+    border-color: rgb(0, 255, 0);
+}
+.produtosdaloja h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produtodescricao{
+    font-size: 18px;
+}
+.precodoproduto{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    padding: 2.5%;
+    background: url("bg.jpg");
+}
+.copyrigth{
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
