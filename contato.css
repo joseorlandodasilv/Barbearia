@@ -27,42 +27,32 @@ nav a:hover{
     color: #C78C19;
     text-decoration: underline;
 }
-.produtosdaloja{
+main{
     width: 940px;
     margin: 0 auto;
 }
-.produtosdaloja li{
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    padding: 50px 20px;
-    margin: 50px 1.5%;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 15px 50px 15px 50px;
+form{
+    margin: 40px 0;
 }
-.produtosdaloja li:hover{
-    border-color: #C78C19;
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
 }
-.produtosdaloja li:hover h2{
-    font-size: 35px;
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
-.produtosdaloja li:active{
-    border-color: rgb(0, 255, 0);
+.checkbox{
+    margin: 20px 0;
 }
-.produtosdaloja h2{
-    font-size: 30px;
-    font-weight: bold;
-}
-.produtodescricao{
-    font-size: 18px;
-}
-.precodoproduto{
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
-}
+
+
+
+
+
 footer{
     text-align: center;
     padding: 10px;
